@@ -3,7 +3,7 @@ def Article::fake_title
 end
 
 def Article::fake_body
-  Faker::Lorem.paragraphs(rand(8) + 3).join("\n")
+  Faker::Lorem.paragraphs(rand(8) + 3).join("<p></p>").prepend("<p>").concat("</p>")
 end
 
 10.times do
