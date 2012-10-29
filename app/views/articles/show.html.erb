@@ -8,3 +8,14 @@
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
+
+<hr>
+<div class="row">
+  <div class="comments span8">
+    <h4>Comments</h4>
+
+    <%= render @article.comments %>
+
+    <%= render 'comments/form' %>
+  </div>
+</div>
