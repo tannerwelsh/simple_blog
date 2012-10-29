@@ -6,7 +6,7 @@ A very, very, very basic blog built on Rails.  No frills.  Articles and comments
 
 ```bash
 # Clone the repo
-git clone https://github.com/openspectrum/simple_blog.git
+git clone https://github.com/dbc-challenges/simple_blog.git
 cd simple_blog
 
 # Start the server
