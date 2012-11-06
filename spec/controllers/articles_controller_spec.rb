@@ -24,7 +24,7 @@ describe ArticlesController do
   # Article. As you add validations to Article, be sure to
   # update the return value of this method accordingly.
   def valid_attributes
-    {}
+    {:title => "Ruby for Noobies", :body => "When you first start with Ruby... blah blah blah"}
   end
 
   # This should return the minimal set of values that should be in the session
