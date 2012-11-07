@@ -9,6 +9,7 @@ A very, very, very basic blog built on Rails.  No frills.  Articles and comments
 git clone https://github.com/dbc-challenges/simple_blog.git
 cd simple_blog
 bundle install
+rake db:migrate
 
 # Start the server
 rails s
